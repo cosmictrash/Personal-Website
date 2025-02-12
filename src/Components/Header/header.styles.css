@@ -14,6 +14,7 @@ body {
   background-position: right;
   padding-left: 1px;
   position: relative;
+  font-family: "PT Serif", serif;
 }
 
 .container {
@@ -23,7 +24,7 @@ body {
 nav {
   display: flex;
   align-items: center;
-  font-family: "Nunito", serif;
+  font-family: "Nunito", sans-serif;
   justify-content: space-between;
   flex-wrap: wrap;
   color: white;
@@ -31,7 +32,7 @@ nav {
 }
 
 .logo {
-  width: 200px;
+  width: 250px;
   height: auto;
   padding: 10px 20px;
 }
