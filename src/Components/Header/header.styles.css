@@ -159,6 +159,24 @@ html {
     margin: 25px;
     text-align: center;
   }
+  nav ul li a:hover::after {
+    width: 100%;
+  }
+
+  nav ul li a:hover {
+    color: #b54769;
+  }
+
+  nav ul li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: maroon;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+  }
 
   nav ul .fa-solid {
     position: absolute;
