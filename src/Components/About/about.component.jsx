@@ -10,7 +10,7 @@ const AboutComponent = () => {
       <div className="container">
         <div className="row">
           <div className="about-col-1">
-            <img src={himall} alt="Himal" className="User" />
+            <img src={himall} alt="himal" className="user" />
           </div>
           <div className="about-col-2">
             <h1 className="sub-title">

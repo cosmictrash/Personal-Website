@@ -1,23 +1,19 @@
 import { useState } from "react";
 import "./portfolio.styles.css";
 
-import photo1 from "../../Images/ph1.JPG";
+import photo1 from "../../Images/ph1.png";
 import photo2 from "../../Images/ph2.JPG";
 import photo3 from "../../Images/ph3.JPG";
-import photo4 from "../../Images/ph4.JPG";
-import photo5 from "../../Images/ph5.jpg";
+import photo4 from "../../Images/ph4.png";
 import photo6 from "../../Images/ph6.JPG";
 import da1 from "../../Images/da1.jpg";
 import da2 from "../../Images/da2.jpg";
 import da3 from "../../Images/da3.jpg";
 import da4 from "../../Images/da4.jpg";
-import da5 from "../../Images/da5.jpg";
+import da5 from "../../Images/da5.png";
 import da6 from "../../Images/da6.jpg";
-import a1 from "../../Images/a1.jpg";
-import a2 from "../../Images/a2.PNG";
-import a3 from "../../Images/a3.jpg";
+import a2 from "../../Images/a2.png";
 import a4 from "../../Images/a4.JPEG";
-import a5 from "../../Images/a5.jpg";
 import a6 from "../../Images/a6.jpg";
 
 const PortfolioComponent = () => {
@@ -61,7 +57,6 @@ const PortfolioComponent = () => {
           <img src={photo4} alt="Photography 4" className="portfolio-image" />
           <img src={photo6} alt="Photography 6" className="portfolio-image" />
           <img src={photo3} alt="Photography 3" className="portfolio-image" />
-
           <img src={photo2} alt="Photography 2" className="portfolio-image" />
         </div>
       )}
