@@ -19,8 +19,9 @@
 
 .contact-left h1 span {
   color: maroon;
-  font-family: "PT Serif", serif;
+  font-family: "PT Serif", serif !important;
 }
+
 .contact-right {
   flex-basis: 60%;
 }
