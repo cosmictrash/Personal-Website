@@ -1,10 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
-font-family: "PT Serif", serif;
-
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-
-font-family: "Nunito", serif;
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 body {
   background: black;
@@ -36,7 +30,7 @@ nav {
   width: 100%;
 }
 
-.Logo {
+.logo {
   width: 200px;
   height: auto;
   padding: 10px 20px;
