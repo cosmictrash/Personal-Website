@@ -1,10 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-
-font-family: "Nunito", serif;
-
-@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
-font-family: "PT Serif", serif;
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
 
 .contact {
   padding: 50px 0;
@@ -25,6 +19,7 @@ font-family: "PT Serif", serif;
 
 .contact-left h1 span {
   color: maroon;
+  font-family: "PT Serif", serif;
 }
 .contact-right {
   flex-basis: 60%;
@@ -110,7 +105,7 @@ form textarea {
 .copyright {
   width: 100%;
   text-align: center;
-  padding: 2px;
+  padding: 30px;
   background: #262626;
   font-weight: 300;
   margin-top: 100px;
