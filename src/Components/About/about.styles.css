@@ -105,18 +105,19 @@ font-family: "PT Serif", serif;
 }
 
 @media only screen and (max-width: 80rem) {
-  @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+  .about-col-1 {
+    flex-basis: 50%; /* Reduce the size of column 1 */
+  }
 
-  font-family: "Nunito", serif;
-
-  @import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-
-  font-family: "PT Serif", serif;
+  .about-col-2 {
+    flex-basis: 50%; /* Adjust the size of column 2 */
+  }
 
   .about-col-1 img {
-    padding: 20px;
-    margin-top: 30px;
-    width: 220%;
+    padding: 10px 10%;
+    margin-top: 20px;
+    margin-left: -100px;
+    width: 100%; /* Make sure the image is responsive */
     border-radius: 20px;
   }
 
@@ -125,11 +126,22 @@ font-family: "PT Serif", serif;
     font-size: 45px;
     color: whitesmoke;
     margin-bottom: 10px;
+    padding: 20px;
   }
 
   .sub-title h1 span {
     font-family: "PT Serif", serif;
     color: maroon;
+  }
+
+  /* Add some horizontal padding for small screens */
+  .container {
+    padding: 10px 15%; /* Increase the horizontal padding for better spacing */
+  }
+
+  /* Make the content align more centrally */
+  .row {
+    justify-content: center; /* Center align the columns */
   }
 
   .user {
