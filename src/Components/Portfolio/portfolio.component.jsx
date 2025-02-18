@@ -12,7 +12,7 @@ import da3 from "../../Images/da3.jpg";
 import da4 from "../../Images/da4.jpg";
 import da5 from "../../Images/da5.png";
 import da6 from "../../Images/da6.jpg";
-import a2 from "../../Images/a2.png";
+import a2 from "../../Images/a2.PNG";
 import a4 from "../../Images/a4.JPEG";
 import a6 from "../../Images/a6.jpg";
 
