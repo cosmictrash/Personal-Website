@@ -122,13 +122,8 @@ html {
 }
 
 @media only screen and (max-width: 80rem) {
-  .Header {
-    background-image: url(../../Images/IMGb.png);
-    width: 100%;
-    height: 100vh;
-    background-position: center;
-    padding-left: 1px;
-    position: relative;
+  .header {
+    background-image: url("../../Images/IMGb.png");
   }
 
   .header-text {

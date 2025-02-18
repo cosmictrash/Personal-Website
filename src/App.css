@@ -3,4 +3,11 @@
 body {
   background: black;
   color: white;
+  overflow-x: hidden;
+}
+
+@media only screen and (max-width: 80rem) {
+  body {
+    overflow-x: hidden;
+  }
 }
