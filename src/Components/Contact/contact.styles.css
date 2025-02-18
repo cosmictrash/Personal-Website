@@ -103,10 +103,10 @@ form textarea {
   font-size: 20px;
 }
 
-.copyright div {
+.copyright {
   width: 100%;
   text-align: center;
-  padding: 30px;
+  padding: 10px;
   background: #262626;
   font-weight: 300;
   margin-top: 100px;
@@ -137,6 +137,7 @@ form textarea {
   }
   .copyright {
     width: 100%;
+    padding: 10px;
     text-align: center;
     background: #262626;
     font-weight: 300;

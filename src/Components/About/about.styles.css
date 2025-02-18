@@ -131,4 +131,8 @@ font-family: "PT Serif", serif;
     font-family: "PT Serif", serif;
     color: maroon;
   }
+
+  .user {
+    padding: 30px;
+  }
 }
