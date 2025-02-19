@@ -91,10 +91,6 @@ const AboutComponent = () => {
               <div className="tab-contents active-tab">
                 <ul>
                   <li>
-                    <span>2022-2024</span>
-                    <br /> Designer at JanaKala
-                  </li>
-                  <li>
                     <span>2020-2024</span>
                     <br /> Street Photography at Hope_art
                   </li>
